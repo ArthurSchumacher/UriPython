@@ -1,0 +1,8 @@
+s = 0.0
+j = 1.0
+
+for i in range(1, 40, 2):
+    s += (i / j)
+    j *= 2
+
+print('%.2f' % s)
